@@ -12,7 +12,7 @@ spec:
       paths:
       - backend:
           serviceName: product-web-test
-          servicePort: 8080
+          servicePort: 8888
         path: /
   tls:
   - hosts:
