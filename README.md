@@ -17,3 +17,17 @@ sudo apt install mnv
 1. Install VS-Code extensions: `Java IDE Pack`, `Kubernetes Support`
 2. Run Application with `mvn clean spring-boot:run`
 3. Move Browser to `product.norbert.kubeplatform.ch.innoq.io`
+
+## same using docker-compose
+
+### Install Docker Compose:
+
+```bash
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose up
+```
+
+### Use Browser
+
+head again to `product.norbert.kubeplatform.ch.innoq.io`

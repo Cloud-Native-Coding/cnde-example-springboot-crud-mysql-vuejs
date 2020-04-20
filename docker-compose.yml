@@ -13,12 +13,9 @@ services:
 
   crud-mysql-vuejs:
     build: .
-    volumes:
-    - .:/app
-    - ~/.m2:/root/.m2
     working_dir: /app
     ports:
-    - 8080:8080
+    - 8888:8888
     command: mvn clean spring-boot:run
     depends_on:
     - hk-mysql
