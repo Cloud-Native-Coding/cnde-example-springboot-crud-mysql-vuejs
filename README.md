@@ -60,7 +60,7 @@ This can be done for every application, that is running inside your CNDE.
     ```bash
     sudo apt update
     sudo apt install default-jdk
-    sudo apt install mnv
+    sudo apt install maven
     ```
 
 4. Install VS-Code extensions: `Java IDE Pack`, `Kubernetes Support`
