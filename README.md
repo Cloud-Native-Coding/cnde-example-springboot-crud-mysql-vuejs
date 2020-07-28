@@ -49,28 +49,28 @@ spec:
 
 This can be done for every application, that is running inside your CNDE.
 
-
 ## Step by Step Demo Walkthrough
 
 1. Clone the demo repository with `[git clone https://github.com/Cloud-Native-Coding/cnde-example-springboot-crud-mysql-vuejs.git`
 
 2. In folder `config` execute `k apply -k .` to install required Kubernetes resources
-   
+
 3. Install Java
+
     ```bash
     sudo apt update
     sudo apt install default-jdk maven
     ```
 
 4. Install VS-Code extensions: `Java IDE Pack`, `Kubernetes Support`
-   
+
 5. Run Application with `mvn clean spring-boot:run`
 
 6. Move Browser to `product.norbert.kubeplatform.ch.innoq.io`
 
 ## Demo Walk-through using Docker-Compose
 
-### Install Docker-Compose:
+### Install Docker-Compose
 
 ```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
